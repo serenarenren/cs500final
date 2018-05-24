@@ -15,10 +15,10 @@ div {
 }
 
 #sidebar {
-  width: 100%;
+  width: 20%;
   min-height: 20px;
   font-family: "Karla", Arial, san-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   background-color: #ffffff;
@@ -29,11 +29,10 @@ div {
 }
 
 .logo {
-  width: 100%;
+  width: 20;
   min-height: 20px;
-  font-family: "Karla", Arial, san-serif;
   font-size: 14px;
-  font-style: normal;
+  font-style: bold;
   font-weight: 400;
   background-color: #ffffff;
   color: #000000;
