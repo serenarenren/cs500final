@@ -14,9 +14,13 @@ div {
   font-family: Courier New, sans-serif;
 }
 
-#header {
+#sidebar {
   width: 100%;
-  min-height: 30px;
+  min-height: 20px;
+  font-family: "Karla", Arial, san-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   background-color: #1A3052;
   color: #008EE2;
   text-align: center;
