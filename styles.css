@@ -27,3 +27,17 @@ div {
   border-radius: 0;
   border: none;
 }
+
+.logo {
+  width: 100%;
+  min-height: 20px;
+  font-family: "Karla", Arial, san-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  border-radius: 0;
+  border: none;
+}
