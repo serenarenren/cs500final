@@ -21,9 +21,9 @@ div {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  background-color: #1A3052;
-  color: #008EE2;
-  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
   border-radius: 0;
   border: none;
 }
@@ -37,7 +37,7 @@ div {
   font-weight: 400;
   background-color: #ffffff;
   color: #000000;
-  text-align: center;
+  text-align: left;
   border-radius: 0;
   border: none;
 }
