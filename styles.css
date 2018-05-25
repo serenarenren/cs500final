@@ -1,42 +1,100 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: Garamond, sans-serif;
-  background-color: #008EE2;
+  background-color: #ffffff;
 }
 
 
 div {
-  background-color: #efefef;
-  width: 70%;
-  border-radius: 5px;
-  border: 1px solid #000000;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 0px;
+  border: 0px solid #000000;
   margin: 0 auto;
-  padding: 10px 10px;
-  font-family: Courier New, sans-serif;
+  padding: 1px 1px;
+  font-family: font-family: "Karla", Arial, san-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 #sidebar {
-  width: 20%;
   min-height: 20px;
   font-family: "Karla", Arial, san-serif;
-  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   background-color: #ffffff;
-  color: #000000;
   text-align: left;
   border-radius: 0;
   border: none;
+  padding: 60px;
+  position: fixed;
+}
+
+#blank {
+  width: 20%;
+}
+
+.column {
+  vertical-align: top;
+  margin: 0;
+  display: inline-block;
 }
 
 .logo {
   width: 20;
   min-height: 20px;
-  font-size: 14px;
+  font-size: 20px;
   font-style: bold;
   font-weight: 400;
-  background-color: #ffffff;
+  color: #aaaaaa;
+  text-align: left;
+  border-radius: 0;
+  border: none;
+}
+
+.section {
+  width: 20;
+  min-height: 20px;
+  font-size: 15px;
+  font-style: bold;
+  font-weight: 400;
   color: #000000;
   text-align: left;
   border-radius: 0;
   border: none;
+}
+
+#content {
+  padding-top: 3%;
+  width: 75%;
+  margin-left: 3%;
+
+}
+
+h4 {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  font-style: normal;
+}
+
+h6 {
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.text {
+  padding-right: 35%;
 }
