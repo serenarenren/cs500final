@@ -5,6 +5,7 @@
 body {
   font-family: Garamond, sans-serif;
   background-color: #ffffff;
+  font-style: normal;
 }
 
 
@@ -19,8 +20,12 @@ div {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
 }
 
 #sidebar {
@@ -50,7 +55,7 @@ a {
   width: 20;
   min-height: 20px;
   font-size: 20px;
-  font-style: bold;
+  /* font-style: bold; */
   font-weight: 400;
   color: #aaaaaa;
   text-align: left;
@@ -62,7 +67,7 @@ a {
   width: 20;
   min-height: 20px;
   font-size: 15px;
-  font-style: bold;
+  /* font-style: bold; */
   font-weight: 400;
   color: #000000;
   text-align: left;
@@ -96,5 +101,6 @@ h6 {
 }
 
 .text {
+  font-family: "Karla", Arial, san-serif;
   padding-right: 35%;
 }
