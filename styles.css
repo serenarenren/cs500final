@@ -85,22 +85,26 @@ a:hover {
 h4 {
   font-family: "EB Garamond", serif;
   font-size: 40px;
+  font-weight: 200;
   font-style: normal;
 }
 
 h5 {
   font-family: "EB Garamond", serif;
   font-size: 20px;
+  font-weight: 200;
   font-style: normal;
 }
 
 h6 {
   font-family: "EB Garamond", serif;
   font-size: 15px;
+  font-weight: 200;
   font-style: normal;
 }
 
 .text {
   font-family: "Karla", Arial, san-serif;
   padding-right: 35%;
+  font-weight: 100;
 }
