@@ -101,10 +101,40 @@ h6 {
   font-family: "EB Garamond", serif;
   font-size: 20px;
   font-weight: 200;
+  text-indent: 270px;
 }
 
 .text {
   font-family: "Karla", Arial, san-serif;
   padding-right: 35%;
   font-weight: 100;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.image {
+  max-width: 680;
+}
+
+.inline {
+  display: inline-block;
+	max-width: 98%;
+  height: 310px;
+  width: auto;
+}
+
+.inline2 {
+  display: inline-block;
+	max-width: 98%;
+  height: 345px;
+  width: auto;
+}
+
+.inline3 {
+  display: inline-block;
+	max-width: 98%;
+  height: 283px;
+  width: auto;
 }
