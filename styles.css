@@ -75,6 +75,10 @@ a:hover {
   border: none;
 }
 
+#currentsection {
+  color: grey;
+}
+
 #content {
   padding-top: 3%;
   width: 75%;
@@ -101,7 +105,8 @@ h6 {
   font-family: "EB Garamond", serif;
   font-size: 20px;
   font-weight: 200;
-  text-indent: 270px;
+  text-align: center;
+  padding-right: 35%;
 }
 
 .text {
