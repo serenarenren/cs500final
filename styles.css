@@ -32,6 +32,7 @@ a:hover {
   color: grey;
 }
 
+/* Home page styles (background and text) */
 .bg {
     background-image: url("background.jpg");
     height: 100vh;
@@ -59,6 +60,7 @@ a:hover {
   color: grey;
 }
 
+/* Sidebar layout for all pages (excluding home) */
 #sidebar {
   min-height: 20px;
   font-family: "Karla", Arial, san-serif;
@@ -72,6 +74,7 @@ a:hover {
   position: fixed;
 }
 
+/* Blank column to fix sidebar dimensions */
 #blank {
   width: 20%;
 }
@@ -105,78 +108,7 @@ a:hover {
   color: grey;
 }
 
-#content {
-  padding-top: 3%;
-  width: 75%;
-  margin-left: 3%;
-
-}
-
-h4 {
-  font-family: "EB Garamond", serif;
-  font-size: 40px;
-  font-weight: 200;
-  font-style: normal;
-}
-
-h5 {
-  font-family: "EB Garamond", serif;
-  font-size: 20px;
-  font-weight: 200;
-  font-style: normal;
-  color: #7f8c8d;
-}
-
-h6 {
-  font-family: "EB Garamond", serif;
-  font-size: 20px;
-  font-weight: 200;
-  text-align: center;
-  padding-right: 35%;
-}
-
-.text {
-  font-family: "Karla", Arial, san-serif;
-  padding-right: 35%;
-  font-weight: 100;
-}
-
-.caption {
-  font-style: italic;
-}
-
-.image {
-  max-width: 680;
-}
-
-.inline {
-  display: inline-block;
-	max-width: 98%;
-  height: 310px;
-  width: auto;
-}
-
-.inline2 {
-  display: inline-block;
-	max-width: 98%;
-  height: 345px;
-  width: auto;
-}
-
-.inline3 {
-  display: inline-block;
-	max-width: 98%;
-  height: 283px;
-  width: auto;
-}
-
-.inline4 {
-  display: inline-block;
-	max-width: 98%;
-  height: 415px;
-  width: auto;
-}
-
+/* For all projects page image grid */
 .col {
     float: left;
     width: 500px;
@@ -237,4 +169,77 @@ h6 {
   -ms-transform: translate(-50%, -50%);
   text-align: left;
   font-family: "Karla", Arial, san-serif;
+}
+
+/* For content of individual project pages */
+#content {
+  padding-top: 3%;
+  width: 75%;
+  margin-left: 3%;
+}
+
+h4 {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  color: #7f8c8d;
+}
+
+h6 {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  padding-right: 35%;
+}
+
+.text {
+  font-family: "Karla", Arial, san-serif;
+  padding-right: 35%;
+  font-weight: 100;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.image {
+  max-width: 680;
+}
+
+/* For different pairs of images in individual projects */
+.inline {
+  display: inline-block;
+	max-width: 98%;
+  height: 310px;
+  width: auto;
+}
+
+.inline2 {
+  display: inline-block;
+	max-width: 98%;
+  height: 345px;
+  width: auto;
+}
+
+.inline3 {
+  display: inline-block;
+	max-width: 98%;
+  height: 283px;
+  width: auto;
+}
+
+.inline4 {
+  display: inline-block;
+	max-width: 98%;
+  height: 415px;
+  width: auto;
 }
