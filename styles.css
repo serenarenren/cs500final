@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: Garamond, sans-serif;
   background-color: #ffffff;
@@ -87,7 +86,6 @@ a:hover {
   width: 20;
   min-height: 20px;
   font-size: 15px;
-  /* font-style: bold; */
   font-weight: 400;
   color: #000000;
   text-align: left;
