@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+.bg a {
+  color: white;
+}
+
 a:hover {
   color: grey;
 }
@@ -35,23 +39,25 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .bg h1 {
-  padding-top: 575px;
-  padding-left: 300px;
   font-family: "Karla", Arial, san-serif;
   font-size: 50px;
   color: white;
+  margin-left: 42vh;
+  margin-top: 77vh;
 }
 
 .bg p {
-  padding-left: 300px;
+  margin-left: 42vh;
   font-size: 20px;
+  width: 100%;
 }
 
-.bg a {
-  color: white;
+.bg p:hover {
+  color: grey;
 }
 
 #sidebar {
