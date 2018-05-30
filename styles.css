@@ -3,12 +3,12 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: Garamond, sans-serif;
   background-color: #ffffff;
   font-style: normal;
 }
-
 
 div {
   background-color: #ffffff;
@@ -27,6 +27,31 @@ a {
 
 a:hover {
   color: grey;
+}
+
+.bg {
+    background-image: url("background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg h1 {
+  padding-top: 575px;
+  padding-left: 300px;
+  font-family: "Karla", Arial, san-serif;
+  font-size: 50px;
+  color: white;
+}
+
+.bg p {
+  padding-left: 300px;
+  font-size: 20px;
+}
+
+.bg a {
+  color: white;
 }
 
 #sidebar {
